@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "innovea"
+version = "0.1.0"
+description = ""
+authors = ["Léo Graciano <leonardoferreiragraciano@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "4.2"
+djangorestframework = "^3.14.0"
+django-filter = "^23.1"
+requests = "^2.28.2"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+autopep8 = "^2.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
